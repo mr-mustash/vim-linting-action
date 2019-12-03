@@ -1,5 +1,5 @@
 #!/bin/bash
-for file in $(find /github/workspace/ -name '*.vim')
+for file in $(find ${GITHUB_WORKSPACE} -name '*.vim')
 do
-    vint "$file"
+    vint --color "$file"
 done
