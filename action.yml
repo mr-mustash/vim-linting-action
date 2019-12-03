@@ -1,0 +1,5 @@
+name: 'Vim Lint'
+description: 'Lint .vim files with vint.'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
